@@ -1,0 +1,173 @@
+/**** Basic Pallette ****/
+/**** Default usage ****/
+/**** Styles ****/
+body {
+  background: #e0e0e0;
+  color: #333333;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 2em 1em;
+  min-height: 100%;
+  font-size: 13pt;
+  line-height: 1.4em;
+}
+a {
+  color: #cb0b0b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#container {
+  min-height: 100%;
+  margin: auto;
+  width: 44em;
+}
+.small {
+  font-size: 0.8em;
+  vertical-align: top;
+}
+header {
+  padding: 2.5em;
+  margin: 1.5em 0;
+  background: white;
+  border-top: 0.75em solid #cb0b0b;
+}
+header #header {
+  vertical-align: middle;
+  padding: 0.75em 0;
+  border-spacing: 0;
+  width: 100%;
+}
+header #header td {
+  width: 46%;
+}
+header #header td.spacer {
+  width: 8%;
+}
+header #header #portrait_td {
+  text-align: right;
+}
+header #header #portrait_td #portrait {
+  height: 200px;
+  vertical-align: middle;
+}
+header #header #contact {
+  text-align: left;
+  display: inline-block;
+}
+header #header #contact h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 2.25em;
+  line-height: 1em;
+  color: #cb0b0b;
+  margin: 0;
+}
+header #header #contact .address {
+  margin: 0;
+}
+header #header #contact #email {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  color: #333333;
+  margin: 1em 0;
+  white-space: nowrap;
+}
+header #header #contact #email:hover {
+  color: #cb0b0b;
+  text-decoration: none;
+}
+header #header #contact #email #envelope {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.info {
+  padding: 2.5em;
+  margin: 1.5em 0;
+  background: white;
+  border-top: 0.5em solid #333333;
+}
+.info h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 1em;
+  padding: 0;
+  margin: -0.2em 0;
+}
+.info h4 {
+  padding: 0;
+  margin: 0;
+}
+.info > p,
+.info .text_block {
+  margin: 0.8em 0.5em 0 1em;
+  text-align: justify;
+}
+.info .author_me,
+.info .callout {
+  font-weight: bold;
+}
+.info .pub_title {
+  font-style: italic;
+  font-weight: bold;
+}
+.info .github_link {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.25em;
+  margin: 0 0.2em;
+  vertical-align: text-bottom;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url('images/GitHub-Mark.svg');
+}
+.info ul {
+  list-style: none;
+}
+.info ul.pub_list {
+  padding-left: 1.5em;
+}
+.info ul.pub_list li {
+  text-indent: -1.5em;
+  margin: 0.5em 0;
+}
+.info ul.service_list {
+  padding-left: 0;
+  margin-left: 0.5em;
+}
+.info ul.service_list li {
+  margin: 0.5em 0;
+  /* If we need to line wrap, start after the bullet */
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+  /* Add custom bullet */
+}
+.info ul.service_list li:before {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  padding-right: 0.4em;
+  /*background-image: url('images/empty-star-bullet-333.svg');*/
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+.info ul.ta_list {
+  margin: 0 0 0.5em 0;
+  padding-left: 1.5em;
+  font-size: 0.9em;
+}
+.info ul li div.list_text_div {
+  text-indent: 0pt;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer {
+  opacity: 0.5;
+  text-align: center;
+  line-height: 1em;
+}
