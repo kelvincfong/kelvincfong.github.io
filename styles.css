@@ -12,7 +12,7 @@ body {
   line-height: 1.4em;
 }
 a {
-  color: #cb0b0b;
+  color: #00356B;
   text-decoration: none;
 }
 a:hover {
@@ -31,7 +31,7 @@ header {
   padding: 2.5em;
   margin: 1.5em 0;
   background: white;
-  border-top: 0.75em solid #cb0b0b;
+  border-top: 0.75em solid #00356B;
 }
 header #header {
   vertical-align: middle;
@@ -61,7 +61,7 @@ header #header #contact h1 {
   font-weight: normal;
   font-size: 2.25em;
   line-height: 1em;
-  color: #cb0b0b;
+  color: #00356B;
   margin: 0;
 }
 header #header #contact .address {
@@ -75,7 +75,7 @@ header #header #contact #email {
   white-space: nowrap;
 }
 header #header #contact #email:hover {
-  color: #cb0b0b;
+  color: #00356B;
   text-decoration: none;
 }
 header #header #contact #email #envelope {
