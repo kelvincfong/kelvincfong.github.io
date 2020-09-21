@@ -97,6 +97,7 @@ header #header #contact #email #envelope {
   margin: -0.2em 0;
 }
 .info h4 {
+  line-height 1em;
   padding: 0;
   margin: 0;
 }
@@ -111,7 +112,7 @@ header #header #contact #email #envelope {
 }
 .info .pub_title {
   font-style: italic;
-  font-weight: bold;
+  font-weight: normal;
 }
 .info .github_link {
   display: inline-block;
